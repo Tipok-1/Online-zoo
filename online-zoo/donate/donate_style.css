@@ -1,0 +1,241 @@
+@import url('../common styles.css');
+.section1_ft{
+    height:590px;
+    background-position: center;
+}
+.main{
+    background: var(--orange_gradient);
+}
+.donate_main{
+    height:1262px;
+    margin-top:40px;
+    margin-bottom: 180px;
+}
+.main_donate_p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.peek_and_feed{
+    height:964px;
+    width:100%;
+    margin-top:60px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.52);
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+}
+.peek_and_feed_content{
+    height:862px;
+    width: 976px;
+    margin-top: 40px;
+    position: relative;
+}
+.panda{
+    width: 517px;
+    height:199px;
+    margin-top:107px;
+    margin-left: 215px;
+    display: flex;
+    position: relative;
+}
+#text_panda{
+    width: 159px;
+    height: 91px;
+    margin-top: 58px;
+}
+.number{
+    margin:auto;
+    width: 82px;
+    height:58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 400%;
+    font-weight: 700;
+}
+.number_text{
+    margin-top: 11px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #333B41
+}
+#cross{
+    width: 14px;
+    height: 14px;
+    margin-top: 83px;
+    margin-left: 11px;
+}
+#panda{
+    height: 100%;
+    width: 269px;
+    margin-left: 64px;
+    position:absolute;
+    bottom:47px;
+    right:0;
+    
+}
+.selection_line{
+    width: 100%;
+    height: 114px;
+    margin-top: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+}
+.line{
+    width: 100%;
+    height: 27px;
+    margin-top: 17px;
+    background: #404950;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.internal_line{
+    height:2px;
+    width: 915px;
+    background: #72828E;
+    position: relative;
+}
+.virtual_line{
+    display:flex;
+    position:relative;
+    right:20px;
+    height:2px;
+    width:calc(100% + 40px);
+    justify-content: space-between;
+    align-items: center;
+}
+.big_circle,.small_circle{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.big_circle{
+    height:40px;
+    width: 40px;
+}
+.active_big_circle{
+   outline:1px solid #FE9013;
+}
+.active_small_circle{
+    outline:1px solid #FE9013;
+}
+.small_circle{
+    height: 23px;
+    width: 23px;
+}
+.yellow_dots{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #FFEE2E;
+}
+.big_circle:hover,.money:hover{
+    cursor: pointer;
+}
+.line_number{
+    width: 100%;
+    height: 36px;
+    margin-top: 12px;
+    display:flex;
+}
+.money{
+    width:auto;
+    height:36px;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #333B41;
+}
+.active_number{
+    color: #FE9013;
+}
+.wrap_donation{
+    width:100%;
+    height:237px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:50px;
+}
+#Another_amount{
+    width:298px;
+    height: 54px;
+    padding-left: 9px;
+    background-color: transparent;
+    border:1px solid #929699;
+    border-radius: 3px;
+}
+#Another_amount::placeholder{
+    color: #929699;
+}
+.radio_buttons{
+    width: 218px;
+    height: 21px;
+    margin-top: 25px;
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+}
+.bt_donate{
+    margin-top:31px;
+}
+#last_text{
+    margin-top:30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+}
+#Another_amount::-webkit-outer-spin-button,
+#Another_amount::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.radio{
+    display:inline-block;
+    position: relative;
+    margin-right: 7px;
+    top:3px;
+    z-index: 1;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #FE9013;
+    
+}
+.swith:checked + .radio{
+    background-color: #4B9200;
+    border: 1 solid #4B9200;
+}
+.swith{
+    display:none;
+}
+.txt_label:hover{
+    cursor: pointer;
+}
+
+.yd2{margin-left:58px;}
+.yd3{margin-left:58px;}
+.yd4{margin-left:60px;}
+.yd5{margin-left:73px;}
+.yd6{margin-left:75px;}
+.yd7{margin-left:84px;}
+.yd8{margin-left:84px;}
